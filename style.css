@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+#bw {
+    cursor: pointer;
+}
+.main {
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+
+header div {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header input {
+    width: 333px;
+    margin: 0 12px;
+    height: 29px;
+    background: #E7E7E7;
+    border: 1px solid #000000;
+    border-radius: 48px;
+    text-align: center;
+    padding-top: 0.5em;
+    
+}
+
+header input::placeholder {
+    font-size: 22px;
+    color: #000000;
+    background-image: url("img/Vector (5).svg");
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: 30% 50%;
+    margin: 0;
+}
+
+.company {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.64em;
+    text-transform: uppercase;
+    padding: 2px;
+}
+header span {
+    border-right: 1px solid #000000;
+    padding: 11px 50px;
+    
+}
+.cart {
+    border: 0;
+    border-left: 1px solid #000000;
+}
+
+
+header svg {
+    width: 22px;
+    height: 100%;
+    border-left: 1px solid #000000;
+    padding-left: 12px;
+    fill: black;
+}
+
+main {
+    display: flex;
+    margin: 167px 52px;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 118px;
+}
+.aside img {
+    margin-bottom: 52px;
+    border: 1px solid #000000;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 591px;
+    width: 475px;
+    background-image: url("img/Rectangle 8.png");
+    box-shadow: 7px 13px rgba(0, 0, 0, 0.75);
+    margin-right: 143px;
+}
+
+.photo span {
+    color: #fff;
+    margin: 60px 0;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.64em;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+.descript {
+    display: flex;
+    flex-direction: column;
+}
+.descript span {
+    box-sizing: border-box;
+width: 443px;
+height: 68px;
+border: 1px solid #000000;
+text-align: center;
+padding-top: 1em;
+margin: 22px 0;
+}
+
+.name p {
+    height: 103px;
+}
+
+.vector {
+    background-image: url("img/Vector (6).svg");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+.name .add {
+    background-color: #000000;
+    color: #fff;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.add button {
+    height: 100%;
+    width: 64px;
+    border: 0;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    background-image: url("img/Vector\ \(7\).svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+footer span {
+    width: 163px;
+    border-right: 1px solid #000000; 
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.5em;
+    
+}
+footer span:first-child {
+    background-color: #000000;
+    color: #fff;
+}
+footer span:last-child {
+    width: 625px;
+    border: 0;
+}
+
+body.dark {
+    background-color: #000000;
+    color: #fff;
+}
+body.dark *{
+    border-color: #fff;
+}
+
+body.dark header svg {
+    fill: #fff;
+}
+body.dark .photo {
+    box-shadow: 7px 13px rgba(255, 255, 255, 0.75);
+}
+body.dark input {
+    background-color: rgba(24, 24, 24, 1);
+}
+body.dark input::placeholder {
+    color: #ffffff;
+    background-image: url("img/Vector (8).svg");
+}
+
+body.dark .name .add {
+    background: #ffffff;
+    color: #000000;
+}
+
+body.dark footer span:first-child {
+    background-color: #ffffff;
+    color: #000000;
+}
+body.dark .add button {
+    background-color: #000000;
+}
+
+body.dark .vector {
+    background-image: url("img/Vector\ \(10\).svg");
+}
